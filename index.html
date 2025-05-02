@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frosty Delights</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Frosty Delights</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#products">Flavors</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Cool Treats for Hot Days</h2>
+      <p>Fresh, creamy, and handmade ice cream.</p>
+      <button onclick="scrollToSection('products')">Explore Flavors</button>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <h2>Our Best Flavors</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://via.placeholder.com/200x150?text=Vanilla" alt="Vanilla"/>
+          <h3>Vanilla Classic</h3>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/200x150?text=Chocolate" alt="Chocolate"/>
+          <h3>Choco Bliss</h3>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/200x150?text=Strawberry" alt="Strawberry"/>
+          <h3>Berry Love</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a family-owned ice cream shop serving delicious treats since 1995. All our ice creams are made with love and the finest ingredients.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage"></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Frosty Delights. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
